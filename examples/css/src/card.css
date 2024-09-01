@@ -1,0 +1,27 @@
+:root {
+  --color-background: #fff;
+  --color-border: #e9ecef;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --radius: 12px;
+}
+
+.card {
+  max-width: 300px;
+  font-family: var(--font);
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: box-shadow 0.4s ease;
+
+  &:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius);
+  }
+}
