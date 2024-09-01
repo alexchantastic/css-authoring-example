@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import "./card.css";
+import "./card.scss";
 
 interface CardProps {
   src: string;
